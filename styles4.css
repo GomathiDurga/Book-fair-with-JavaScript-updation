@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+nav {
+    background-color: #2c3e50;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c3e50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul li .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #34495e;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .details, .features, .books, .contact, .registration {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #333;
+}
+
+.feature {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.books ul {
+    list-style: none;
+    padding: 0;
+}
+
+.books ul li {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.fair-image {
+    width: 50%;
+    height: auto;
+    border: 2px solid #34495e;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin-bottom: 5px;
+}
+
+.registration input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.registration button {
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #2c3e50;
+}
